@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(#0a0a0a, #000);
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+}
+
+/* HUD styling (score and timer box) */
+#hud {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #00ffcc;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+}
